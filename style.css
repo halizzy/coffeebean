@@ -1,0 +1,346 @@
+:root {
+    /* color */
+    --color-a1: #ffebee;
+    --color-a2: #ffcdd2;
+    --color-a3: #ef9a9a;
+    --color-a4: #e57373;
+    --color-a5: #ef5350;
+    --color-a6: #f44336;
+
+    --color-b1: #f3e5f5;
+    --color-b2: #e1bee7;
+    --color-b3: #ce93d8;
+    --color-b4: #ba68c8;
+    --color-b5: #ab47bc;
+    --color-b6: #9c27b0;
+
+    --color-c1: #e8eaf6;
+    --color-c2: #c5cae9;
+    --color-c3: #9fa8da;
+    --color-c4: #7986cb;
+    --color-c5: #5c6bc0;
+    --color-c6: #3f51b5;
+
+    --color-d1: #e0f2f1;
+    --color-d2: #b2dfdb;
+    --color-d3: #80cbc4;
+    --color-d4: #4db6ac;
+    --color-d5: #26a69a;
+    --color-d6: #009688;
+
+    --color-main:#2f1c11;
+
+    /* Annimation */
+    --animation-duration: 500ms;
+
+    /* border */
+    --border-line: 3px;
+    --border-script-imgBox: 10px;
+}
+body{
+    font-family: 'NanumBarunGothic';
+    background: #fff;
+}
+.wrapper{
+    max-width: 1200px;
+    width: 100%;
+    margin:0 auto;
+}
+header{
+    /* background-color: #009688; */
+    background-color: #fff;
+}
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999999;
+}
+.topbar{
+    background: rgb(238, 238, 238);
+    width: 100%;
+    height: 49px;
+    text-align: right;
+}
+.topbar ul{
+    display: flex;
+    font-weight: 500;
+    justify-content: right;
+}
+.topbar ul li{
+    justify-content: center;
+}
+
+
+/*                            */
+/*                            */
+/*                            */
+/* 안고쳐짐 - 조금 있다가 할것 */
+/*                            */
+/*                            */
+/*                            */
+
+
+.topbar ul li a{
+    line-height: 40px;
+    margin-right: 20px;
+    /* padding-right: 40px; */
+    font-size: 14px;
+    color: rgb(51,51,51);
+    display: block;
+}
+.topbar ul li:nth-child(6){
+    background-image: url(img/ico_user_info_line.png);
+    background-repeat: no-repeat;
+    background-color: #2f1c11;
+    background-position:center ;
+    width: 70px;
+    height:  49px;
+    display: block;
+    margin-right: 20px;
+}
+
+
+
+nav{
+    font-size: 14px;
+    font-weight: bold;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    line-height: 100px;
+    padding: 0 30px;
+}
+.navbar li a:hover{
+    color:#D3732C ;
+}
+.navbar li a img{
+    width: 93px;
+    height: 63px;
+    padding-top: 20px;
+}
+.sec1 {
+    /* position:absolute;
+    top: 140px; */
+    margin-top: 150px;
+    /* height: 700px; */
+}
+/* .sec2.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+} */
+.sec3 h2{
+    margin: 20px 0 30px;
+    /* margin-bottom: 35px; */
+    font-family: 'Archer-Semibold', 'NanumBarunGothic';
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(207,102,26);
+    text-align: center;
+    font-weight: bold;
+}
+.sec3.product_box{
+    display: flex;
+    justify-content: space-around;
+}
+.sec3.product_box.product{
+    width: 300px;
+}
+.sec3 .img{
+    width: 300px;
+}
+/* .sec3.product_box.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+} */
+.product_box{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 10px;
+}
+.text em{
+    color: rgb(207,102,26)
+}
+.sec3 .progress {
+    width: 200px;
+    height: 20px;
+    margin: 25px auto 30px;
+}
+.sec3 .progress li img {
+    width: 12px;
+    height: 13px;
+}
+.sec3 ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.sec3 li{
+    float: left;
+    margin-left: 5px;
+}
+.sec3 .box{
+    display:block;
+    text-indent: -9999px;
+    background:rgb(227, 226, 225);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/* .sec3 .box1{
+    display:block;
+    text-indent: -9999px;
+    background:rgb(211, 211, 211);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+} */
+.sec4{
+    background: #7C51A1;
+    height: 600px;
+}
+.sec4 .title{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 30px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+/* .sec4.wrapper{
+    width: 100%;
+    overflow: hidden;
+    margin-left: 10%;
+    cursor: pointer;
+} */
+/* .sec4 .img img{
+    transition: all 0.5s;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+} */
+.sec4 .img_box {
+    background-color: var(--color-a2);
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+}
+.button{
+margin:30px 0 0 36%;
+}
+.button button{
+    padding: 0 29px;
+    cursor: pointer;
+}
+.sec4 .button button{
+    background: #F38200;
+    max-width: 400px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 40px;
+    color: white;
+    margin: 0 auto;
+}
+footer{
+    background: #E2E2E2;
+}
+footer.list{
+    height: 200px;
+}
+
+/* 왜 옆으로 안될가...?  */
+.stiemap{
+    padding: 55px 0 50px 0;
+    margin-bottom: 30px;
+}
+footer .sitemap{
+    float: left;
+}
+/* .stiemap ul{
+    float: left;
+} */
+/*                      */
+.stiemap h1{
+    color:rgb(207,102,26);
+    font-size: 18px;
+    font-weight: bold;
+}
+footer .copyright {
+    height: 130px;
+    border-top: 1px solid black;
+    padding: 20px 0 30px;
+}
+footer .copyright ul {
+    display: flex;
+}
+footer .copyright ul li {
+    padding: 0 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+/* 색이 안바뀜 ;; */
+footer.copyright ul li a:hover{
+    color: rgb(207, 102, 26);
+}
+/* 색이 안바뀜 ;; */
+
+
+
+footer .copyright ul li:nth-child(2n) {
+
+}
+footer .copyright ul li::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 1px;
+    height: 100%;
+    background-color:black;
+    z-index: 10;
+}
+footer .copyright ul li:last-child::after {
+    display: none;
+}
+.copy_sub ul{
+    display: flex;
+    line-height: 24px;
+    /* width: 660px; */
+    /* height: 72px; */
+}
+.copy_sub ul li {
+    font-size: 13px;
+    padding: 0 10px;
+    position: relative;
+    border-right: 1px solid black
+}
+.footerimg{
+    /* width: 40px;b
+    height: 40px; */
+}
+.footerimg ul {
+    display: flex;
+}
